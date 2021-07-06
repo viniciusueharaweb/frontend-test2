@@ -14,8 +14,8 @@ type ThemeContextData = {
 const ThemeContext = createContext<ThemeContextData>({} as ThemeContextData)
 
 export const ThemeProvider = ({ children }: ThemeProps) => {
-  const [contextTheme, setContextTheme] = useState<DefaultTheme>(theme)
-  const [themeLoading, setThemeLoading] = useState(true)
+  const [contextTheme, _setContextTheme] = useState<DefaultTheme>(theme)
+  const [themeLoading, _setThemeLoading] = useState(true)
 
   return (
     <ThemeContext.Provider
