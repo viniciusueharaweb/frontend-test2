@@ -7,7 +7,8 @@ export const Container = styled.div`
   color: ${({ theme }) => theme.colors.neutrals.white[400]};
   padding: 8px 11px;
   font-size: 1rem;
+  margin-top: 20px;
   & svg {
-      margin-right: 10px;
+    margin-right: 10px;
   }
 `

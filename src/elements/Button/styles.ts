@@ -20,16 +20,19 @@ export const ButtonStyled = styled.button<WrapperProps>`
   color: ${({ theme }) => theme.colors.neutrals.white[400]};
   background-color: ${({ theme }) => theme.colors.primary.blue[700]};
   box-shadow: 0px 4px 2px 1px rgba(201, 201, 201, 0.53);
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.primary.blue[500]};
+  }
   ${({ size }) => size && sizes[size!]()}
   ${({ disabled }) =>
     disabled &&
     css`
       background-color: gray;
       cursor: default;
+      &:hover {
+        background-color: gray;
+      }
     `}
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.primary.blue[500]};
-  }
 `
 export const DashboardButton = styled.button<WrapperProps>`
   background-color: transparent;
