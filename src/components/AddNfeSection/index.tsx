@@ -15,7 +15,7 @@ export default function AddNfeSection() {
           <br /> Arraste suas NFE's em formato XML
           <br /> ou
         </h1>
-        <Button label="Enviar NFE" size="big" autoFocus/>
+        <Button label="Enviar NFE" size="big"/>
         <p>Verifique se a NFe está condizente com o padrão do sistema. </p>
         <p>
           Clique <Link href="/">aqui</Link> para saber mais
