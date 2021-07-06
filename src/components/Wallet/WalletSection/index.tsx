@@ -6,8 +6,6 @@ import Search from '../../../elements/Search'
 import WalletMenu from '../WalletMenu'
 import nfeMock from '../../../mock/nfeMock'
 
-export type WalletSectionProps = {}
-
 export default function WalletSection() {
   // responsável pela renderização da seção "Carteira" do dashboard
 

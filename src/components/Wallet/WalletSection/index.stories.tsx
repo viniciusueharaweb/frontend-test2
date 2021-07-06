@@ -7,9 +7,9 @@ export default {
   argTypes: {},
 } as Meta
 
-const Template: Story = (...args) => <WalletSection/>
+const Template: Story = () => <WalletSection />
 
 export const WalletSectionTemplate = Template.bind({})
 
 WalletSectionTemplate.parameters = {}
-WalletSectionTemplate.args = { limit: '10' }
+WalletSectionTemplate.args = {}
