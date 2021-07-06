@@ -50,9 +50,17 @@ export const DashboardButton = styled.button<WrapperProps>`
   &:hover {
     background-color: ${({ theme }) => theme.colors.primary.blue[500]};
   }
+  &:focus {
+    outline: none;
+    background-color: ${({ theme }) => theme.colors.neutrals.white[600]};
+    color: ${({ theme }) => theme.colors.primary.blue[600]};
+  }
   ${({ active }) =>
     active &&
     css`
+      &:focus {
+        background-color: ${({ theme }) => theme.colors.neutrals.white[400]};
+      }
       background-color: ${({ theme }) => theme.colors.neutrals.white[400]};
       color: ${({ theme }) => theme.colors.primary.blue[600]};
       &:hover {
