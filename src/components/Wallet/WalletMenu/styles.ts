@@ -13,4 +13,7 @@ export const WalletTable = styled.div`
   & > span {
     padding: 8px 4px;
   }
+  & button {
+    background-color: transparent;
+  }
 `
