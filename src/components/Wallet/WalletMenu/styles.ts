@@ -5,7 +5,7 @@ export const WalletTable = styled.div`
   overflow: scroll;
   font-size: 0.9rem;
   grid-template-columns:
-    minmax(70px, 1fr) minmax(150px, 2fr) minmax(100px, 2fr) minmax(120px, 2fr) minmax(120px, 2fr)
+    minmax(70px, 1fr) minmax(150px, 2fr) minmax(100px, 2fr) minmax(130px, 2fr) minmax(120px, 2fr)
     minmax(100px, 2fr);
   align-items: center;
   row-gap: 10px;
