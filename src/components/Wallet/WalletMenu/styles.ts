@@ -9,11 +9,7 @@ export const WalletTable = styled.div`
     minmax(100px, 2fr);
   align-items: center;
   row-gap: 10px;
-  &:nth-child(1) {
-    margin-bottom: -50px;
-  }
-
-  margin: 30px 0;
+  margin-top: 30px;
   & > span {
     padding: 8px 4px;
   }
