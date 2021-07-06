@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+const Container = styled.div`
   width: 100%;
   display: flex;
   & > div:first-child {
@@ -10,3 +10,4 @@ export const Container = styled.div`
     margin: 40px;
   }
 `
+export default Container

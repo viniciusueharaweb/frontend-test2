@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react'
-import { Container } from './styles'
+import Container from './styles'
 import SidebarMenu from '../components/DashboardSidebarMenu'
 import AddNfeSection from '../components/AddNfeSection'
 import WalletSection from '../components/Wallet/WalletSection'
@@ -35,20 +35,12 @@ const Home = () => {
         </FocusLock>
       </div>
       {currentSidebarActive === 'Adicionar NF-e' && <AddNfeSection />}
-      {currentSidebarActive === 'Carteira' && (
-
-        <WalletSection />
-
-      )}
+      {currentSidebarActive === 'Carteira' && <WalletSection />}
       {currentSidebarActive === 'Cadastro' && (
-
         <RegistrationSection setCompanyName={setCompanyName} />
- 
       )}
     </Container>
   )
 }
 
 export default Home
-
-
